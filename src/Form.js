@@ -12,11 +12,11 @@ class Form extends Component {
     render() {
         return (
             <div id="Form">
-                <h3>write Data in to the form:</h3>
+                <h3>Resume :</h3>
                 
-                <form>
+                <form onSubmit={this.props.handleFormSubmit}>
                     <label htmlFor="username">
-                        Username:
+                        Username:   
           <input id="username" value={this.props.newUsername}
                             type="text" name="username" required
                             onChange={this.props.handleInputChange} />
@@ -118,7 +118,7 @@ class Form extends Component {
                        
                        {/* <NavLink exact to="/table">  */}
                        
-                       <button type="submit" value="Submit" onClick={this.props.handleFormSubmit} 
+                       <button type="submit" value="Submit"  
                         // onClick={this.onNavigate}
                         >Submit</button>
                         

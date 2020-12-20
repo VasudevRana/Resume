@@ -44,7 +44,7 @@ class Table extends Component {
                                     return (
                                         <tr>
                                             <td>{item.username}</td>
-                                            <td>{item.objective}</td>
+                                            <td>{item.Objective}</td>
                                             <td>{item.location}</td>
                                             <td>{item.Education}</td>
                                             <td>{item.Education_School}</td>

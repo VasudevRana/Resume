@@ -40,7 +40,7 @@ class App extends Component {
 
     items.push({
       username: this.state.username,
-      objective: this.state.Objective,
+      Objective: this.state.Objective,
       location: this.state.location,
       Education: this.state.Education,
       Education_School: this.state.Education_School,
@@ -59,7 +59,7 @@ class App extends Component {
     this.setState({
       items,
       username: '',
-      objective: '',
+      Objective: '',
       location: '',
       Education: '',
       Education_School: '',
